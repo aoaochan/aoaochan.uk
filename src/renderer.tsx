@@ -9,7 +9,7 @@ export const renderer = jsxRenderer(({ children }, c) => {
     <html>
       <head>
         <ViteClient />
-        <Link href="/src/style.css" rel="stylesheet" />
+        {/* <Link href="/src/style.css" rel="stylesheet" /> */}
         <Link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <script src="/js/htmx@2.0.8.min.js"></script>
         <title>{title}</title>
