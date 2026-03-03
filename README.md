@@ -7,3 +7,7 @@
 - [ ] Root/Main - /
 - [ ] Games - /games
 - [ ] Contact - /contact
+
+## Credits
+### Fonts
+- Pretendard: https://github.com/orioncactus/pretendard

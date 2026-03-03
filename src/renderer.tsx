@@ -9,7 +9,7 @@ export const renderer = jsxRenderer(({ children }, c) => {
     <html lang="ko">
       <head>
         <ViteClient />
-        <link rel="stylesheet" as="style" crossOrigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+        <link rel="stylesheet" as="style" crossOrigin href="/fonts/pretendard/pretendard.css" />
         <link href="/style.css" rel="stylesheet" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         <script src="/js/htmx@2.0.8.min.js"></script>
