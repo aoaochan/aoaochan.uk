@@ -6,12 +6,10 @@ const app = new Hono();
 app.use(renderer);
 
 app.get('/', (c) => {
-  c.set('title' as never, 'Main');
   return c.render(<h1>Hello!</h1>);
 });
 
 app.get('/about', (c) => {
-  c.set('title' as never, 'About');
   return c.render(<h1>About</h1>);
 });
 
